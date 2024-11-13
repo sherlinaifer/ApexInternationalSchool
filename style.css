@@ -1,0 +1,145 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top-header{
+    background-color: rgb(4, 4, 95);
+    height: 40px;
+}
+.admission-btn{
+  border-radius: 25px;
+}
+.admission-btn:hover{
+    color: black;
+}
+.socialmedia-icons li{
+    color: rgb(196, 196, 196);
+}
+.fa-facebook-f:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: white;
+    cursor: pointer;
+}
+.navigation-bar{
+    width: 100vw;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index:2;
+}
+.carousel-item {
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-description {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -30%);
+    /* text-align: start; */
+    color: white;
+    padding: 20px;
+    max-width: 700px; 
+}
+
+.carousel-description h1{
+    font-weight:bolder;
+}
+
+.carousel-description p{
+    color: rgb(198, 195, 195);
+}
+.carousel-description .reg-btn{
+    color: white;
+    background-color:rgb(32, 4, 87);
+    border: none;
+    padding: 5px 15px 5px 15px ;
+    border-radius: 25px;
+}
+.reg-btn:hover{
+    background-color: black;
+}
+.section-title,.title{
+    color: rgb(5, 5, 189);
+}
+hr.line{
+    border: 1px solid rgb(8, 6, 99);
+}
+.youtube-video{
+    padding-top: 20%;
+}
+#frame-property{
+    width :540px;
+    height :315px;
+}
+
+.card-body h5,h6{
+    text-align: start;
+}
+
+.card-items::-webkit-scrollbar{
+    display: none;
+  }
+.date{
+    position: absolute;
+    background-color: rgb(8, 6, 99);
+    color: white;
+    top: 10%;
+    left: 10%;
+    transform: translate(-48%, -48%);
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+.lab, .chemistry-lab, .playschool, .martial-arts, .library, .music {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-lab, .hover-clab, .hover-play, .hover-martial-arts, .hover-library, .hover-music {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: black;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.lab:hover .hover-lab,
+.chemistry-lab:hover .hover-clab,
+.playschool:hover .hover-play,
+.martial-arts:hover .hover-martial-arts,
+.library:hover .hover-library,
+.music:hover .hover-music {
+    display: flex !important; 
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(46, 44, 158);
+}
+.apply-btn{
+    color: white;
+    background-color:rgb(32, 4, 87);
+    border: none;
+    padding: 5px 15px 5px 15px ;
+    border-radius: 25px;
+}
+
